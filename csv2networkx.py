@@ -4,6 +4,7 @@ import networkx as nx
 import matplotlib.pyplot as plt
 
 
+# TODO: After project completion execute: pip freeze > requirements.txt
 def main():
     df_before = pd.read_csv("./before.csv", names=["X", "Y"])
     G = nx.Graph()
